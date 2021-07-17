@@ -16,13 +16,13 @@ def kalkulator():
     
 
     if działanie == "1":
-        print(numer_1 + numer_2)
+        logging.info(numer_1 + numer_2)
     if działanie == "2":
-        print(numer_1 - numer_2)
+        logging.info(numer_1 - numer_2)
     if działanie == "3":
-        print(numer_1 * numer_2)
+        logging.info(numer_1 * numer_2)
     if działanie == "4":
-        print(numer_1 / numer_2)
+        logging.info(numer_1 / numer_2)
 
 kalkulator()        
 
