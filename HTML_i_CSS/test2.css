@@ -1,0 +1,21 @@
+h1{
+    font-size: 70px;
+    background: grey;
+    padding: 10px;
+  }
+  h2{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold; 
+  }
+  strong{
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  b{
+    margin-left: 30px;
+    font-size: 40px; 
+  }
+  p{
+    font-size: 30px; 
+  }

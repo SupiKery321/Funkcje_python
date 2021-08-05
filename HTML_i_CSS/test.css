@@ -1,0 +1,14 @@
+h1{
+    font-size: 70px;
+    background: grey;
+    padding: 10px;
+  }
+  h2{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold; 
+  }
+  p{
+    font-size: 30px; 
+  }
+  
