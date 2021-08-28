@@ -1,0 +1,44 @@
+<html>
+            <head></head>
+
+            <body>
+
+
+            <form action="/wybierz" method="POST">
+            <label for="currency">Choose a currency:</label>
+            <select name="operation" id="currency">
+               <option value="dolar amerykański">Dolar amerykański</option>
+               <option value="dolar australijski">Dolar australijski</option>
+               <option value="dolar kanadyjski">Dolar kanadyjski</option>
+               <option value="euro">Euro</option>
+               <option value="forint">Forint</option>
+               <option value="frank szwajcarski">Frank szwajcarski</option>
+               <option value="funt szterling">Funt szterling</option>
+               <option value="jen">Jen</option>
+               <option value="korona czeska">Korona czeska</option>
+               <option value="korona duńska">Korona duńska</option>
+               <option value="korona norweska">Korona norweska</option>
+               <option value="korona szwedzka">Korona szwedzka</option>
+               <option value="sdr">SDR</option>
+               
+            </select>
+            <br><br>
+            <input type="submit" value="Wybierz">  <div class = "alert"> {{code}} {{bid}} </div>
+
+            </form>
+            <form
+            <form action="/wybierz/przelicz" method="POST">
+            <label for="bid">Przelicznik na złotówki. Proszę podać ilość podanej waluty:</label>
+                <input id="number" type="text" name= "counting">
+                <br><br>
+                <input type ="submit" value= "Przelicz"/> <div class = "alert"> {{operacja}}</div>
+            </form>
+            
+           
+
+
+            
+
+               
+            </body>
+        </html  >
